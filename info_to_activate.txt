@@ -1,7 +1,7 @@
 1. first run server
 
 2. to activate worker, open a new terminal a put this command:
-  celery -A proj worker -l INFO
+  celery -A sendemail worker -l INFO
 
 3. to activate beat, open a new terminal a put this command:
   celery -A sendemail beat -l info

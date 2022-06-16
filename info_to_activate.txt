@@ -1,2 +1,5 @@
-activate worker:  celery -A proj worker -l INFO
-activate beat:  celery -A sendemail beat -l info
+1. to activate worker, open a new terminal a put this command:
+  celery -A proj worker -l INFO
+
+2. to activate beat, open a new terminal a put this command:
+  celery -A sendemail beat -l info

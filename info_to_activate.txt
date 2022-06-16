@@ -1,0 +1,2 @@
+activate worker:  celery -A proj worker -l INFO
+activate beat:  celery -A sendemail beat -l info

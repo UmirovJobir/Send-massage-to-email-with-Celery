@@ -26,7 +26,7 @@ def send_beat_email():
         send_mail(
             'Celery test message in every 1 minute',
             'you will get message again in 1 minute',
-            "jobirumirovmoliya@gmail.com",
+            "moliya@gmail.com",
             [contact.email],
             fail_silently=False,
         )
